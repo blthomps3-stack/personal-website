@@ -6,6 +6,6 @@
     margin-inline: auto;
 }
 
-main {
-    padding: 60px 0;
+.flex {
+    display: flex;
 }
