@@ -31,3 +31,24 @@ ul {
 .hero-banner {
     background: none;
 }
+
+.content {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buttons {
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    padding: 10px;
+}
+#about {
+    background-color: burlywood;
+}
+#contact {
+    background-color: coral;
+}

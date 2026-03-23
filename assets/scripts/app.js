@@ -1,6 +1,6 @@
 'use strict';
 
-infobox = document.getElementById('info');
+info = document.getElementById('info');
 about = document.getElementById('about');
 contact = document.getElementById('contact');
 
