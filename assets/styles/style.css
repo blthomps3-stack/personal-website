@@ -9,3 +9,25 @@
 .flex {
     display: flex;
 }
+
+/* Header */
+header .flex {
+    justify-content: space-between;
+}
+
+header {
+    background-color: cadetblue;
+    height: 80px;
+    line-height: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Hero Banner */
+
+.hero-banner {
+    background: none;
+}
