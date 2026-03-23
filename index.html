@@ -9,6 +9,7 @@
         <link rel="icon" href="./assets/media/favicon.png?v=2"  type="image/x-icon">
         <title>Portfolio</title>
         <link rel="stylesheet" href="./assets/styles/style.css" media="all">
+        <script src="./assets/scripts/app.js" defer></script>
     </head>
     <body>
         <div id="hero-banner">
@@ -26,13 +27,17 @@
             </header>
             <main>
                 <section>
-                    <div>
-                        <h2>Hello, world</h2>
-                        <p id="info"></p> <!-- Will be invisible til About or Contact are pressed
-                        Then it will display the corresponding info -->
-                        <div class="flex">
-                            <button id="about">About Me</button>
-                            <button id="contact">Contact Me</button>
+                    <div class="content">
+                        <div>
+                            <h2>Hello, world</h2>
+                            <div class="buttons">
+                                <button id="about">About Me</button>
+                                <button id="contact">Contact Me</button>
+                            </div>
+                        </div>
+                        <div id="infobox">
+                            <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, suscipit sapiente. Quisquam doloribus facere eligendi veniam fugit temporibus commodi, tempora magnam nemo ipsam, unde impedit architecto, maxime quidem expedita sapiente.</p> <!-- Will be invisible til About or Contact are pressed
+                            Then it will display the corresponding info -->
                         </div>
                     </div>
                 </section>
