@@ -52,3 +52,12 @@ button {
 #contact {
     background-color: coral;
 }
+
+
+#infobox {
+    background-color: orchid;
+    height: 500px;
+    width: 400px;
+    margin: 30px;
+    padding: 30px;
+}
