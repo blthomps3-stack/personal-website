@@ -29,6 +29,7 @@ ul {
 /* Hero Banner */
 
 .hero-banner {
+    height: calc(100svh - 80px);
     background: none;
 }
 
