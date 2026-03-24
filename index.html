@@ -10,15 +10,16 @@
         <title>Portfolio</title>
         <link rel="stylesheet" href="./assets/styles/style.css" media="all">
         <script src="./assets/scripts/app.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <div id="hero-banner">
+        <div>
             <header>
                 <div class="container flex">
                     <h1>Blake Thompson</h1>
                     <nav>
                         <!-- No nav section yet because there's only one page
-                        But I'm putting a blank one for spacing reasons in case I do add one-->
+                        But I'm putting a blank one for spacing reasons in case I do add more -->
                         <ul>
                             <li></li>
                         </ul>
@@ -26,7 +27,7 @@
                 </div>
             </header>
             <main>
-                <section>
+                <section class="banner">
                     <div class="content">
                         <div>
                             <h2>Hello, world</h2>
@@ -36,12 +37,36 @@
                             </div>
                         </div>
                         <div id="infobox">
-                            <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, suscipit sapiente. Quisquam doloribus facere eligendi veniam fugit temporibus commodi, tempora magnam nemo ipsam, unde impedit architecto, maxime quidem expedita sapiente.</p> <!-- Will be invisible til About or Contact are pressed
+                            <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, suscipit sapiente. Quisquam doloribus facere eligendi veniam fugit temporibus commodi, tempora magnam nemo ipsam, unde impedit architecto, maxime quidem expedita sapiente.</p> 
+                            <!-- Will be invisible til About or Contact are pressed
                             Then it will display the corresponding info -->
                         </div>
                     </div>
                 </section>
+                <div>
+
+                </div>
             </main>
         </div>
+        <footer>
+            <div class="flex">
+                <ul>
+                    <li>
+                        <a href="https://github.com/blthomps3-stack">
+                        <!-- <i class="fa-brands fa-github"></i> --> Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://leetcode.com/u/blthomps/">
+                            <!-- <i class="fa-brands fa-leetcode"></i> --> Leetcode
+                            <!-- This icon is currently broken so I removed both of them, text and ul is basically placeholder -->
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="mailto:blthomps3@gmail.com">Email</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html>
